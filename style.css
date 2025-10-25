@@ -6,7 +6,7 @@ body {
     height: 100vh;
     background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-        url("https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&w=1600&q=80")
+        url("https://raw.githubusercontent.com/gouaf/aca-tv-1/refs/heads/main/studio.jpg?auto=compress&w=1600&q=80")
             center/cover no-repeat;
 }
 
