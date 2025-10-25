@@ -1,0 +1,24 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+        url("https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&w=1600&q=80")
+            center/cover no-repeat;
+}
+
+#advertise {
+    background: linear-gradient(180deg, #111 0%, #222 100%);
+}
+
+footer {
+    background-color: #111;
+}
+
+a.btn-warning {
+    border-radius: 30px;
+    padding: 12px 30px;
+}

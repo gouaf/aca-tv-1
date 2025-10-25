@@ -1,0 +1,89 @@
+body {
+  scroll-behavior: smooth;
+  background: #f8fafb !important;
+}
+
+/* Updated lively color scheme for ACA TV Radio */
+:root {
+  --primary: #db2777;       /* Vibrant pink */
+  --secondary: #22d3ee;     /* Bright cyan */
+  --accent: #fbbf24;        /* Lively gold */
+  --neutral: #10182a;       /* Deep navy */
+  --white: #fff;
+}
+
+.navbar,
+footer {
+  background-color: var(--neutral) !important;
+}
+
+.navbar-brand,
+.nav-link,
+footer,
+.social-links a {
+  color: var(--secondary) !important;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(120deg, rgba(219,39,119,0.8) 0%, rgba(34,211,238,0.7) 100%),
+    url('https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&w=1600&q=80') center/cover no-repeat;
+  color: var(--white);
+}
+
+.btn-warning,
+a.btn-warning {
+  background: var(--accent) !important;
+  color: var(--neutral) !important;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: background 0.3s;
+}
+
+.btn-warning:hover,
+a.btn-warning:hover {
+  background: var(--primary) !important;
+  color: var(--white) !important;
+}
+
+.btn-success {
+  background: var(--secondary) !important;
+  color: var(--neutral) !important;
+  border: none;
+  border-radius: 18px;
+}
+
+#advertise {
+  background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+  color: var(--white);
+}
+
+#advertise .fa-briefcase,
+#advertise .fa-wrench,
+#advertise .fa-scissors,
+#advertise .fa-store {
+  color: var(--accent) !important;
+}
+
+#about {
+  background: var(--white);
+  color: var(--neutral);
+}
+
+footer {
+  color: var(--white) !important;
+}
+
+.social-links a {
+  color: var(--accent) !important;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--primary) !important;
+}
